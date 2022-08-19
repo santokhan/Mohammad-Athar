@@ -17,8 +17,8 @@ let monthVolume = [
 function keywordEveryWhere(keyword) {
   $.ajax({
     type: "post",
-    url: "http://localhost/soovle/keyword_trends/keywordeverywhere.php",
-    // url: "keywordeverywhere.php",
+    // url: "http://localhost/soovle/keyword_trends/keywordeverywhere.php",
+    url: "keywordeverywhere.php",
     jsonp: "jsonp",
     data: { keyword: keyword },
     success: function (response) {

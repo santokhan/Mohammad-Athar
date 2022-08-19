@@ -1,8 +1,8 @@
 function google_trend_request_for_line_chart(keyword) {
   $.ajax({
     type: "post",
-    url: "http://localhost/soovle/keyword_trends/rapidapi.php",
-    // url: "rapidapi.php",
+    // url: "http://localhost/soovle/keyword_trends/rapidapi.php",
+    url: "rapidapi.php",
     jsonp: "jsonp",
     data: { keyword: keyword },
     success: function (response) {

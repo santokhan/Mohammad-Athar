@@ -1,8 +1,8 @@
 function google_trend_request(keyword) {
   $.ajax({
     type: "post",
-    url: "http://localhost/soovle/keyword_trends/keywordeverywhere.php",
-    // url: "keywordeverywhere.php",
+    // url: "http://localhost/soovle/keyword_trends/keywordeverywhere.php",
+    url: "keywordeverywhere.php",
     jsonp: "jsonp",
     data: { keyword: keyword },
     success: function (res) {

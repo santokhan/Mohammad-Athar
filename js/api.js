@@ -1,5 +1,5 @@
-const serverURL = "http://localhost/soovle/keyword_trends/scrape.php";
-// serverURL = "scrape.php";
+// const serverURL = "http://localhost/soovle/keyword_trends/scrape.php";
+const serverURL = "scrape.php";
 
 $(document).ready(function () {
   $("#analyze").submit(function (e) {
